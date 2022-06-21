@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Guava",
+    "slug": "Guava",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/login_logo.png",
+    "splash": {
+      "image": "./assets/Home_splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.g7technologies.Guava"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.g7technologies.Guava"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
